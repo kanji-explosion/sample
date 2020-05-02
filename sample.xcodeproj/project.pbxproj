@@ -56,14 +56,38 @@
 		431DA1EB24591564005E9460 /* sample */ = {
 			isa = PBXGroup;
 			children = (
-				431DA1EC24591565005E9460 /* AppDelegate.swift */,
-				431DA1EE24591565005E9460 /* SceneDelegate.swift */,
-				43D1B5CA24591E2B00C31137 /* Main */,
+				4376106B245DC337006E40B5 /* Code */,
 				431DA1F524591565005E9460 /* Assets.xcassets */,
 				431DA1F724591565005E9460 /* LaunchScreen.storyboard */,
 				431DA1FA24591565005E9460 /* Info.plist */,
 			);
 			path = sample;
+			sourceTree = "<group>";
+		};
+		4376106B245DC337006E40B5 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				4376106D245DC36E006E40B5 /* Application */,
+				4376106C245DC360006E40B5 /* Views */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		4376106C245DC360006E40B5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				43D1B5CA24591E2B00C31137 /* Main */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4376106D245DC36E006E40B5 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				431DA1EC24591565005E9460 /* AppDelegate.swift */,
+				431DA1EE24591565005E9460 /* SceneDelegate.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 		43D1B5CA24591E2B00C31137 /* Main */ = {
