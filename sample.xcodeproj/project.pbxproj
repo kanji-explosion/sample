@@ -13,6 +13,10 @@
 		431DA1F424591565005E9460 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 431DA1F224591565005E9460 /* Main.storyboard */; };
 		431DA1F624591565005E9460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 431DA1F524591565005E9460 /* Assets.xcassets */; };
 		431DA1F924591565005E9460 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 431DA1F724591565005E9460 /* LaunchScreen.storyboard */; };
+		43761070245DC925006E40B5 /* MemoSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4376106F245DC925006E40B5 /* MemoSelectViewController.swift */; };
+		43761072245DC937006E40B5 /* MemoEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43761071245DC937006E40B5 /* MemoEditViewController.swift */; };
+		43761074245DC953006E40B5 /* MemoSelect.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43761073245DC953006E40B5 /* MemoSelect.storyboard */; };
+		43761076245DC963006E40B5 /* MemoEdit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43761075245DC962006E40B5 /* MemoEdit.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		431DA1F524591565005E9460 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		431DA1F824591565005E9460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		431DA1FA24591565005E9460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4376106F245DC925006E40B5 /* MemoSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoSelectViewController.swift; sourceTree = "<group>"; };
+		43761071245DC937006E40B5 /* MemoEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoEditViewController.swift; sourceTree = "<group>"; };
+		43761073245DC953006E40B5 /* MemoSelect.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MemoSelect.storyboard; sourceTree = "<group>"; };
+		43761075245DC962006E40B5 /* MemoEdit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MemoEdit.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				43D1B5CA24591E2B00C31137 /* Main */,
+				4376106E245DC8F8006E40B5 /* Memo */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -88,6 +97,17 @@
 				431DA1EE24591565005E9460 /* SceneDelegate.swift */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		4376106E245DC8F8006E40B5 /* Memo */ = {
+			isa = PBXGroup;
+			children = (
+				4376106F245DC925006E40B5 /* MemoSelectViewController.swift */,
+				43761073245DC953006E40B5 /* MemoSelect.storyboard */,
+				43761071245DC937006E40B5 /* MemoEditViewController.swift */,
+				43761075245DC962006E40B5 /* MemoEdit.storyboard */,
+			);
+			path = Memo;
 			sourceTree = "<group>";
 		};
 		43D1B5CA24591E2B00C31137 /* Main */ = {
@@ -159,7 +179,9 @@
 			files = (
 				431DA1F924591565005E9460 /* LaunchScreen.storyboard in Resources */,
 				431DA1F624591565005E9460 /* Assets.xcassets in Resources */,
+				43761074245DC953006E40B5 /* MemoSelect.storyboard in Resources */,
 				431DA1F424591565005E9460 /* Main.storyboard in Resources */,
+				43761076245DC963006E40B5 /* MemoEdit.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,7 +193,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				431DA1F124591565005E9460 /* MainViewController.swift in Sources */,
+				43761072245DC937006E40B5 /* MemoEditViewController.swift in Sources */,
 				431DA1ED24591565005E9460 /* AppDelegate.swift in Sources */,
+				43761070245DC925006E40B5 /* MemoSelectViewController.swift in Sources */,
 				431DA1EF24591565005E9460 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
